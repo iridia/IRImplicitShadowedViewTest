@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFF1D501549727E0072C58E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF1D4F1549727E0072C58E /* UIKit.framework */; };
+		FFFF1D521549727E0072C58E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF1D511549727E0072C58E /* Foundation.framework */; };
+		FFFF1D541549727E0072C58E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF1D531549727E0072C58E /* CoreGraphics.framework */; };
+		FFFF1D5A1549727E0072C58E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFFF1D581549727E0072C58E /* InfoPlist.strings */; };
+		FFFF1D5C1549727E0072C58E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF1D5B1549727E0072C58E /* main.m */; };
+		FFFF1D601549727E0072C58E /* IRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF1D5F1549727E0072C58E /* IRAppDelegate.m */; };
+		FFFF1D631549727E0072C58E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFF1D611549727E0072C58E /* MainStoryboard.storyboard */; };
+		FFFF1D661549727E0072C58E /* IRImplicitShadowedViewTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF1D651549727E0072C58E /* IRImplicitShadowedViewTestingViewController.m */; };
+		FFFF1D6E1549728A0072C58E /* IRImplicitShadowedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF1D6D1549728A0072C58E /* IRImplicitShadowedView.m */; };
+		FFFF1D701549739C0072C58E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF1D6F1549739C0072C58E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFFF1D4B1549727E0072C58E /* IRImplicitShadowedViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRImplicitShadowedViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF1D4F1549727E0072C58E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFFF1D511549727E0072C58E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFFF1D531549727E0072C58E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFFF1D571549727E0072C58E /* IRImplicitShadowedViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRImplicitShadowedViewTest-Info.plist"; sourceTree = "<group>"; };
+		FFFF1D591549727E0072C58E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFFF1D5B1549727E0072C58E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFFF1D5D1549727E0072C58E /* IRImplicitShadowedViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRImplicitShadowedViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		FFFF1D5E1549727E0072C58E /* IRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAppDelegate.h; sourceTree = "<group>"; };
+		FFFF1D5F1549727E0072C58E /* IRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAppDelegate.m; sourceTree = "<group>"; };
+		FFFF1D621549727E0072C58E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FFFF1D641549727E0072C58E /* IRImplicitShadowedViewTestingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRImplicitShadowedViewTestingViewController.h; sourceTree = "<group>"; };
+		FFFF1D651549727E0072C58E /* IRImplicitShadowedViewTestingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRImplicitShadowedViewTestingViewController.m; sourceTree = "<group>"; };
+		FFFF1D6C1549728A0072C58E /* IRImplicitShadowedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRImplicitShadowedView.h; sourceTree = "<group>"; };
+		FFFF1D6D1549728A0072C58E /* IRImplicitShadowedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRImplicitShadowedView.m; sourceTree = "<group>"; };
+		FFFF1D6F1549739C0072C58E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFF1D481549727E0072C58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF1D701549739C0072C58E /* QuartzCore.framework in Frameworks */,
+				FFFF1D501549727E0072C58E /* UIKit.framework in Frameworks */,
+				FFFF1D521549727E0072C58E /* Foundation.framework in Frameworks */,
+				FFFF1D541549727E0072C58E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFF1D401549727E0072C58E = {
+			isa = PBXGroup;
+			children = (
+				FFFF1D551549727E0072C58E /* IRImplicitShadowedViewTest */,
+				FFFF1D4E1549727E0072C58E /* Frameworks */,
+				FFFF1D4C1549727E0072C58E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFF1D4C1549727E0072C58E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF1D4B1549727E0072C58E /* IRImplicitShadowedViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFF1D4E1549727E0072C58E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF1D4F1549727E0072C58E /* UIKit.framework */,
+				FFFF1D511549727E0072C58E /* Foundation.framework */,
+				FFFF1D531549727E0072C58E /* CoreGraphics.framework */,
+				FFFF1D6F1549739C0072C58E /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFFF1D551549727E0072C58E /* IRImplicitShadowedViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF1D611549727E0072C58E /* MainStoryboard.storyboard */,
+				FFFF1D5E1549727E0072C58E /* IRAppDelegate.h */,
+				FFFF1D5F1549727E0072C58E /* IRAppDelegate.m */,
+				FFFF1D6C1549728A0072C58E /* IRImplicitShadowedView.h */,
+				FFFF1D6D1549728A0072C58E /* IRImplicitShadowedView.m */,
+				FFFF1D641549727E0072C58E /* IRImplicitShadowedViewTestingViewController.h */,
+				FFFF1D651549727E0072C58E /* IRImplicitShadowedViewTestingViewController.m */,
+				FFFF1D561549727E0072C58E /* Supporting Files */,
+			);
+			path = IRImplicitShadowedViewTest;
+			sourceTree = "<group>";
+		};
+		FFFF1D561549727E0072C58E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF1D571549727E0072C58E /* IRImplicitShadowedViewTest-Info.plist */,
+				FFFF1D581549727E0072C58E /* InfoPlist.strings */,
+				FFFF1D5B1549727E0072C58E /* main.m */,
+				FFFF1D5D1549727E0072C58E /* IRImplicitShadowedViewTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFF1D4A1549727E0072C58E /* IRImplicitShadowedViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFF1D691549727E0072C58E /* Build configuration list for PBXNativeTarget "IRImplicitShadowedViewTest" */;
+			buildPhases = (
+				FFFF1D471549727E0072C58E /* Sources */,
+				FFFF1D481549727E0072C58E /* Frameworks */,
+				FFFF1D491549727E0072C58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRImplicitShadowedViewTest;
+			productName = IRImplicitShadowedViewTest;
+			productReference = FFFF1D4B1549727E0072C58E /* IRImplicitShadowedViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFF1D421549727E0072C58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IR;
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FFFF1D451549727E0072C58E /* Build configuration list for PBXProject "IRImplicitShadowedViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFFF1D401549727E0072C58E;
+			productRefGroup = FFFF1D4C1549727E0072C58E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFF1D4A1549727E0072C58E /* IRImplicitShadowedViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFF1D491549727E0072C58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF1D5A1549727E0072C58E /* InfoPlist.strings in Resources */,
+				FFFF1D631549727E0072C58E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFF1D471549727E0072C58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF1D5C1549727E0072C58E /* main.m in Sources */,
+				FFFF1D601549727E0072C58E /* IRAppDelegate.m in Sources */,
+				FFFF1D661549727E0072C58E /* IRImplicitShadowedViewTestingViewController.m in Sources */,
+				FFFF1D6E1549728A0072C58E /* IRImplicitShadowedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFFF1D581549727E0072C58E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFF1D591549727E0072C58E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FFFF1D611549727E0072C58E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFF1D621549727E0072C58E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFFF1D671549727E0072C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFFF1D681549727E0072C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFF1D6A1549727E0072C58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRImplicitShadowedViewTest/IRImplicitShadowedViewTest-Prefix.pch";
+				INFOPLIST_FILE = "IRImplicitShadowedViewTest/IRImplicitShadowedViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FFFF1D6B1549727E0072C58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRImplicitShadowedViewTest/IRImplicitShadowedViewTest-Prefix.pch";
+				INFOPLIST_FILE = "IRImplicitShadowedViewTest/IRImplicitShadowedViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFF1D451549727E0072C58E /* Build configuration list for PBXProject "IRImplicitShadowedViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF1D671549727E0072C58E /* Debug */,
+				FFFF1D681549727E0072C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFF1D691549727E0072C58E /* Build configuration list for PBXNativeTarget "IRImplicitShadowedViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF1D6A1549727E0072C58E /* Debug */,
+				FFFF1D6B1549727E0072C58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFF1D421549727E0072C58E /* Project object */;
+}
